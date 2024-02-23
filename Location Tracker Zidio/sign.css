@@ -1,0 +1,123 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dbd6ee;
+    
+    }
+    .container{
+        background-image: url(./Sign\ Up\ Screen.png);
+            display: flex;
+            flex-direction: row;
+            background-color: #15521B;
+                    margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            height: 921px;
+            width: 1000px;
+            margin-top: 400px;}
+    .logo{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .welcome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .welcome h1{
+    color: white;
+    font-size: 45px;
+    } 
+    .welcome p{
+        color: white;
+        font-size: 20px;
+        } 
+    .account{
+        display: flex;
+        flex-direction: column;
+        /* background-color: white; */
+        border-radius: 65px 0 0 65px;
+        padding-top: 50px;
+        align-items: center;
+        width: 608px;
+    }
+    p{
+        color: white;
+        font-size: 25px;
+            margin: 0;
+
+    }
+    #well{
+        font-size: 25px;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .account h1{
+        color: transparent;
+        background: linear-gradient(to right, #5c2ed1, #da1dda);
+        background-clip: text;
+        margin-top: 0px;
+
+        font-size: 47px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    form input{
+        background-color: #1f1135;
+        width: 306px;
+        height: 35px;
+        margin: 10px;
+        border-color: #9b15db;
+        
+    }
+        #text, #mail, #place{
+            display: flex;
+            border-radius: 15px;
+        
+            background-position: 14px 23px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+        }
+        #text{
+            background-image: url('./Images/avatar-294480_1280.png');
+            background-size: 15px;
+        }
+        #mail{
+            background-image: url('./Images/message.png');
+            background-size: 15px;
+        }
+        #place{
+            background-image: url('./Images/password.png');
+            background-size: 15px;
+    
+        }
+        button{
+            background: linear-gradient(to right, #2d56cb, #da1dda);
+            width: 330px;
+            height: 49px;
+            border-radius: 10px;
+            color: #0f0f0f;
+            margin-top: 34px;
+        }
+    
+    .terms{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    
+    }
+    .terms a{
+        color: #f690f2;
+
+    }
+
+    .logo img{
+        width: 80px;
+        border-radius: 50%;
+    }
