@@ -2,6 +2,8 @@
 
 import React from 'react';
 import "./Feature.css";
+import Map from '../Map/Map';
+import MapWithLocationTracking from '../Realtime/Realtime';
 
 const FeaturesPage = () => {
     return (
@@ -15,18 +17,12 @@ const FeaturesPage = () => {
                 </p>
             </div>
             <div className="feature">
-                <h2>Real-time Location Tracking</h2>
-                <p>
-                    Utilize the browser's Geolocation API or a third-party service to capture and display the user's real-time location on a map.
-                    Implement an updating mechanism to continuously track and refresh the user's position.
-                </p>
+            <MapWithLocationTracking/>
             </div>
             <div className="feature">
-                <h2>Map Integration with React</h2>
-                <p>
-                    Integrate a mapping library, such as React Leaflet or Mapbox, to visualize the user's current location in a dynamic map component.
-                    Customize the map interface for a smooth and responsive user experience.
-                </p>
+            
+            <Map center={[51.505, -0.09]} zoom={13} />
+
             </div>
             <div className="feature">
                 <h2>Location History and MySQL Database</h2>

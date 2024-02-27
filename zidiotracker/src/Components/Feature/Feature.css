@@ -13,6 +13,12 @@
     margin-bottom: 30px;
 }
 
+.map-container {
+    height: 400px; 
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
 .feature h2 {
     font-size: 24px;
     font-weight: bold;
